@@ -29,7 +29,7 @@ python main_cluster.py
     -labeling_llm "glm4:9b"
     -model_path "bert-base-uncased"
     -metric "f1"
-    -cluster_type KMeans
+    -cluster_type "KMeans"
     -cluster_size 5
     -loop_size 10
 ```
